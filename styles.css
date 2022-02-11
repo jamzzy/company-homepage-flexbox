@@ -1,0 +1,72 @@
+/**Universal Styles**/
+body {
+    text-align: center;
+    margin: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    
+}
+
+/**Header Styles**/
+
+header .img-container {
+    width: 150px;
+
+    
+}
+header .flex-container {
+    justify-content: space-between;
+    margin: 20px;
+    margin-bottom: 2px;
+}
+
+
+
+nav li {
+    display: inline-flex;
+    padding: 10px;
+    
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-start; 
+    width: 40%;
+    align-items: center;
+
+}
+
+.logo h1 {
+    text-align: left;
+    padding: 20px;
+
+
+}
+header {
+    
+    border-bottom: 8px solid black;
+}
+
+/**Banner Styles**/
+
+.banner-container {
+    background-image: url(banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+
+}
+
+.mission-content {
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    
+}
