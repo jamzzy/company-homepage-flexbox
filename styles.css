@@ -1,7 +1,147 @@
+/**Fonts**/
+/* vietnamese */
+@font-face {
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/dancingscript/v22/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7B1i03Rep8ltA.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/dancingscript/v22/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7B1i03ROp8ltA.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/dancingscript/v22/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7B1i03Sup8.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* cyrillic-ext */
+  @font-face {
+    font-family: 'PT Serif Caption';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/ptserifcaption/v15/ieVj2ZhbGCW-JoW6S34pSDpqYKU019eLAgM9UvI.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+  /* cyrillic */
+  @font-face {
+    font-family: 'PT Serif Caption';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/ptserifcaption/v15/ieVj2ZhbGCW-JoW6S34pSDpqYKU019eLCwM9UvI.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'PT Serif Caption';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/ptserifcaption/v15/ieVj2ZhbGCW-JoW6S34pSDpqYKU019eLAQM9UvI.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'PT Serif Caption';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/ptserifcaption/v15/ieVj2ZhbGCW-JoW6S34pSDpqYKU019eLDwM9.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* cyrillic-ext */
+  @font-face {
+    font-family: 'PT Serif Caption';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/ptserifcaption/v15/ieVl2ZhbGCW-JoW6S34pSDpqYKU019-7DRs5.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+  /* cyrillic */
+  @font-face {
+    font-family: 'PT Serif Caption';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/ptserifcaption/v15/ieVl2ZhbGCW-JoW6S34pSDpqYKU019a7DRs5.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'PT Serif Caption';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/ptserifcaption/v15/ieVl2ZhbGCW-JoW6S34pSDpqYKU019y7DRs5.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'PT Serif Caption';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/ptserifcaption/v15/ieVl2ZhbGCW-JoW6S34pSDpqYKU019K7DQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* hebrew */
+  @font-face {
+    font-family: 'Secular One';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/secularone/v9/8QINdiTajsj_87rMuMdKyqDgOOhLLA.woff2) format('woff2');
+    unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Secular One';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/secularone/v9/8QINdiTajsj_87rMuMdKyqDsOOhLLA.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Secular One';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/secularone/v9/8QINdiTajsj_87rMuMdKyqDiOOg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
 /**Universal Styles**/
+html {
+    scroll-padding-top: 200px;
+}
 body {
     text-align: center;
     margin: 0;
+    background-color:rgb(95, 95, 92);
+    color: white;
+    font-family: 'Secular One';
+    
+    
+}
+
+p {
+    font-family: 'PT Serif Caption';
 }
 img {
     max-width: 100%;
@@ -14,17 +154,38 @@ img {
     
 }
 
+.section-heading {
+    padding-top: 100px;
+    
+}
+
 /**Header Styles**/
+
+header {
+    position: fixed;
+    border-bottom: 5px solid white;
+    width: 100%;
+    height: 180px;
+    z-index: 5;
+    background-color:rgb(95, 95, 92);
+
+}
 
 header .img-container {
     width: 150px;
 
     
 }
+@media only screen and (max-width: 670px) {
+    header .img-container {
+        display: none;
+    }
+}
 header .flex-container {
     justify-content: space-between;
     margin: 20px;
     margin-bottom: 2px;
+    
 }
 
 
@@ -33,34 +194,65 @@ nav li {
     display: inline-flex;
     padding: 10px;
     
+    
 }
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: black;
+
+}
+
+li a:active {
+    background-color: white;
+}
+
+
 
 .logo{
     display: flex;
     justify-content: flex-start; 
     width: 40%;
     align-items: center;
+    padding-right: 50px;
+    
+    
 
+}
+
+.logo img {
+    border-radius: 10px;
+    
 }
 
 .logo h1 {
     text-align: left;
     padding: 20px;
+    font-family: 'Dancing Script';
 
 
 }
-header {
-    
-    border-bottom: 8px solid black;
+
+/**Main Styles**/
+
+main {
+    position: relative;
+    top: 170px;
 }
 
 /**Banner Styles**/
 
 .banner-container {
-    background-image: url(banner.jpg);
+    background-image: url(./images/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
+    color: black;
+    border-bottom: 5px solid white;
 
 }
 
@@ -69,4 +261,55 @@ header {
     background-color: white;
     padding: 10px;
     
+}
+
+
+
+/**Product Styles**/
+
+#product.flex-container{
+    justify-content: center;
+    padding-top: 50px;
+    flex-wrap: wrap;
+    
+
+}
+
+.product-container img {
+    margin-right: 100px;
+    margin-left: 100px;
+
+    height: 250px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+/**Testimony Styles**/
+
+#testimony.flex-container {
+    justify-content: space-around;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.testimony-container {
+    width: 300px;
+    font-style: italic;
+}
+
+/**Footer Styles**/
+
+footer {
+    padding-top: 50px;
+    border-top: 5px solid black;
+    background-color: white;
+    color: black;
+    padding-bottom: 10px;
+
+}
+
+span::before {
+    content: "-";
 }
