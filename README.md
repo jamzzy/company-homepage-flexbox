@@ -1,6 +1,6 @@
 # Company Home Page with Flexbox
 
-Practicing css and html creating a website. 
+Practicing css and html creating a fake company website. 
 
 ## Table Of Contents
 * [Introduction](#Introduction)
